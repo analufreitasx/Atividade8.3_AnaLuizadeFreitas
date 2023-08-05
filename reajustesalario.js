@@ -6,7 +6,7 @@ if(salarioinicial < 280){
     document.write(" Salário Inicial: " + salarioinicial + " <br> Percentual de Aumento: " + aumentopercent + " <br> Valor do aumento: " + aumento_real + " <br> Novo salário: " + salario_reajuste)
 }
 else if(salarioinicial > 280 && salarioinicial < 700){
-    const aumentopercent = 20
+    const aumentopercent = 15
     const aumento_real = ((salarioinicial * 15)/100)
     const salario_reajuste = ((salarioinicial * 15)/100) + salarioinicial
     document.write(" Salário Inicial: " + salarioinicial + "<br> Percentual de Aumento: " + aumentopercent + " <br> Valor do aumento: " + aumento_real + " <br> Novo salário: " + salario_reajuste)
@@ -17,7 +17,7 @@ else if(salarioinicial >=700 && salarioinicial<1500){
     const salario_reajuste = ((salarioinicial * 10)/100) + salarioinicial
     document.write(" Salário Inicial: " + salarioinicial + "<br> Percentual de Aumento: " + aumentopercent + " <br> Valor do aumento: " + aumento_real + " <br> Novo salário: " + salario_reajuste)
 }
-else if(salarioinicial <=1500){
+else if(salarioinicial >=1500){
     const aumentopercent = 5
     const aumento_real = ((salarioinicial * 5)/100)
     const salario_reajuste = ((salarioinicial * 5 )/100) + salarioinicial
